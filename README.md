@@ -12,22 +12,21 @@
 
 <p align="center">
   <a href="https://github.com/vedant7007/offstage"><img src="./assets/project-offstage.svg?v=3" width="49%" alt="OFFSTAGE: an AI event operations team in a box" /></a>
-  <a href="https://github.com/vedant7007/delta-carbon-coach"><img src="./assets/project-delta.svg?v=3" width="49%" alt="Delta: a carbon footprint coach" /></a>
+  <a href="https://github.com/vedant7007/nexus"><img src="./assets/project-nexus.svg?v=3" width="49%" alt="NEXUS: a GenAI command center for stadium control rooms" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/vedant7007/Krishi_sathi"><img src="./assets/project-krishisathi.svg?v=3" width="49%" alt="KrishiSathi: farming help in the farmer's own language" /></a>
+  <a href="https://github.com/vedant7007/delta-carbon-coach"><img src="./assets/project-delta.svg?v=3" width="49%" alt="Delta: a carbon footprint coach" /></a>
   <a href="https://github.com/vedant7007/nirvaachan-ai"><img src="./assets/project-nirvaachan.svg?v=3" width="49%" alt="NirvaachanAI: explains Indian elections to first-time voters" /></a>
 </p>
 <p align="center">
   <a href="https://github.com/vedant7007/clausewise"><img src="./assets/project-clausewise.svg?v=3" width="49%" alt="ClauseWise: reads legal documents so you know what you're signing" /></a>
-  <a href="https://github.com/vedant7007/SIHSIH"><img src="./assets/project-vsmart.svg?v=3" width="49%" alt="VSMART: a blockchain carbon credit registry" /></a>
 </p>
 
 <p align="center">
   <sub>Try them:
   <a href="https://offstage-live.vercel.app">OFFSTAGE</a>,
+  <a href="https://nexus-zuxwfnsdga-el.a.run.app">NEXUS</a>,
   <a href="https://delta-916653092249.asia-south1.run.app">Delta</a>,
-  <a href="https://krishisathi-rose.vercel.app">KrishiSathi</a>,
   <a href="https://nirvaachan-ai-504882606553.asia-south1.run.app">NirvaachanAI</a>,
   <a href="https://clausewise-lovat.vercel.app">ClauseWise</a></sub>
 </p>
