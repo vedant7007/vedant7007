@@ -6,7 +6,7 @@
 
 <br/>
 
-<img src="./assets/now.svg?v=3" width="100%" alt="Right now: leading the tech side of AWS Student Community Day at VJIT, building a 3D portfolio with React Three Fiber and GLSL, shipping multi-agent systems with Gemini and MCP, contributing to open source through GSSoC 2026." />
+<img src="./assets/now.svg" width="100%" alt="Right now: leading the tech side of AWS Student Community Day at VJIT, building a 3D portfolio with React Three Fiber and GLSL, shipping multi-agent systems with Gemini and MCP, contributing to open source through GSSoC 2026." />
 
 ### Things I've built
 

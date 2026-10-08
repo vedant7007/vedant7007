@@ -1,0 +1,30 @@
+name: Redraw Right now panel
+
+on:
+  push:
+    branches: [main]
+    paths: ["now.md", "scripts/build_now.py", "scripts/holo.py"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install fonttools brotli
+      - run: python scripts/build_now.py
+      - name: Commit if changed
+        run: |
+          if git diff --quiet assets/now.svg; then echo "No change"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/now.svg
+          git commit -m "Redraw Right now panel"
+          git push
