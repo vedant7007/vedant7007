@@ -43,9 +43,11 @@
 
 ### Activity
 
-<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=vedant7007&hide_border=true&border_radius=20&background=0F1426&ring=38BDF8&fire=F472B6&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=7DD3FC&sideLabels=7DD3FC&dates=A3A9BE&stroke=23304F" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=vedant7007&hide_border=true&border_radius=20&background=E0F4FF&ring=0EA5E9&fire=F472B6&currStreakNum=101A33&sideNums=101A33&currStreakLabel=0369A1&sideLabels=0369A1&dates=4A5068&stroke=7DD3FC" />
   <img src="https://streak-stats.demolab.com?user=vedant7007&hide_border=true&border_radius=20&background=E0F4FF&ring=0EA5E9&fire=F472B6&currStreakNum=101A33&sideNums=101A33&currStreakLabel=0369A1&sideLabels=0369A1&dates=4A5068&stroke=7DD3FC" width="100%" alt="Contribution streak" />
-</p>
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vedant7007/vedant7007/output/snake-dark.svg" />
