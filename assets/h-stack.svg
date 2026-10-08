@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" role="img" aria-label="Tech stack">
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0" stop-color="#6C63FF"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#6C63FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sans { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "Cascadia Code", Consolas, Menlo, monospace; }
+    .spark { stroke-dasharray: 140 1460; animation: run 4s linear infinite; }
+    @keyframes run { from { stroke-dashoffset: 140; } to { stroke-dashoffset: -1460; } }
+    .in { }
+    @keyframes in { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important; } }
+  </style>
+  <g class="in">
+    <text x="4" y="18" class="mono" font-size="13" fill="#6C63FF" letter-spacing="3">02 / TOOLS</text>
+    <text x="2" y="50" class="sans" font-size="28" font-weight="800" fill="#8B8AA8" letter-spacing="-0.5">Tech stack</text>
+  </g>
+  <line x1="2" y1="64" x2="1198" y2="64" stroke="url(#g)" stroke-opacity="0.7" stroke-width="2"/>
+  <line class="spark" x1="2" y1="64" x2="1198" y2="64" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
+</svg>

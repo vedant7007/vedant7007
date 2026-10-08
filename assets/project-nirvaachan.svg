@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="240" viewBox="0 0 580 240" role="img" aria-label="NirvaachanAI: Teaches Indian election basics through an AI guide. Built for first-time voters. 43rd / 2,600+ · PromptWars">
+  <defs>
+    <radialGradient id="glow" cx="0.9" cy="0" r="0.9">
+      <stop offset="0" stop-color="#B9B3FF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#B9B3FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B9B3FF"/>
+      <stop offset="1" stop-color="#6C63FF"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="580" height="240" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "Cascadia Code", Consolas, Menlo, monospace; }
+    .in { }
+    @keyframes in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    .glow { animation: breathe 5s ease-in-out infinite; }
+    @keyframes breathe { 0%,100% { opacity: .7; } 50% { opacity: 1; } }
+    .sweep { stroke-dasharray: 160 1472; animation: sweep 5s linear infinite; }
+    @keyframes sweep { to { stroke-dashoffset: -1632; } }
+    .dot { animation: blink 2s ease-in-out infinite; }
+    @keyframes blink { 50% { opacity: .25; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="580" height="240" fill="#0B0B14"/>
+    <rect class="glow" width="580" height="240" fill="url(#glow)"/>
+    <g class="in">
+      <rect x="32" y="30" width="220" height="28" rx="14" fill="#B9B3FF" fill-opacity="0.14" stroke="#B9B3FF" stroke-opacity="0.45"/>
+      <circle class="dot" cx="48" cy="44" r="4" fill="#B9B3FF"/>
+      <text x="60" y="49" class="sans" font-size="13" font-weight="600" fill="#B9B3FF">43rd / 2,600+ · PromptWars</text>
+      <text x="32" y="94" class="sans" font-size="30" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">NirvaachanAI</text>
+      <text x="548" y="94" text-anchor="end" class="sans" font-size="22" fill="#B9B3FF">↗</text>
+      <text x="32" y="120" class="sans" font-size="16" fill="#A9A9C2">Teaches Indian election basics through</text><text x="32" y="146" class="sans" font-size="16" fill="#A9A9C2">an AI guide. Built for first-time voters.</text>
+      <rect x="32" y="176" width="77" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/><text x="70.5" y="196" text-anchor="middle" class="mono" font-size="13" fill="#C9C9DA">Next.js</text><rect x="119" y="176" width="100" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/><text x="169.0" y="196" text-anchor="middle" class="mono" font-size="13" fill="#C9C9DA">Gemini 2.0</text><rect x="229" y="176" width="84" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/><text x="271.0" y="196" text-anchor="middle" class="mono" font-size="13" fill="#C9C9DA">Firebase</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="578" height="238" rx="20" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect class="sweep" x="1" y="1" width="578" height="238" rx="20" fill="none" stroke="url(#edge)" stroke-width="2"/>
+</svg>

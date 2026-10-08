@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="240" viewBox="0 0 580 240" role="img" aria-label="ClauseWise: Understand what you&#x27;re signing. GenAI reads rental agreements, offers and NDAs for you. PromptWars Virtual">
+  <defs>
+    <radialGradient id="glow" cx="0.9" cy="0" r="0.9">
+      <stop offset="0" stop-color="#F472B6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F472B6"/>
+      <stop offset="1" stop-color="#6C63FF"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="580" height="240" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "Cascadia Code", Consolas, Menlo, monospace; }
+    .in { }
+    @keyframes in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    .glow { animation: breathe 5s ease-in-out infinite; }
+    @keyframes breathe { 0%,100% { opacity: .7; } 50% { opacity: 1; } }
+    .sweep { stroke-dasharray: 160 1472; animation: sweep 5s linear infinite; }
+    @keyframes sweep { to { stroke-dashoffset: -1632; } }
+    .dot { animation: blink 2s ease-in-out infinite; }
+    @keyframes blink { 50% { opacity: .25; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="580" height="240" fill="#0B0B14"/>
+    <rect class="glow" width="580" height="240" fill="url(#glow)"/>
+    <g class="in">
+      <rect x="32" y="30" width="161" height="28" rx="14" fill="#F472B6" fill-opacity="0.14" stroke="#F472B6" stroke-opacity="0.45"/>
+      <circle class="dot" cx="48" cy="44" r="4" fill="#F472B6"/>
+      <text x="60" y="49" class="sans" font-size="13" font-weight="600" fill="#F472B6">PromptWars Virtual</text>
+      <text x="32" y="94" class="sans" font-size="30" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">ClauseWise</text>
+      <text x="548" y="94" text-anchor="end" class="sans" font-size="22" fill="#F472B6">↗</text>
+      <text x="32" y="120" class="sans" font-size="16" fill="#A9A9C2">Understand what you&#x27;re signing. GenAI reads</text><text x="32" y="146" class="sans" font-size="16" fill="#A9A9C2">rental agreements, offers and NDAs for you.</text>
+      <rect x="32" y="176" width="100" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/><text x="82.0" y="196" text-anchor="middle" class="mono" font-size="13" fill="#C9C9DA">TypeScript</text><rect x="142" y="176" width="62" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/><text x="173.0" y="196" text-anchor="middle" class="mono" font-size="13" fill="#C9C9DA">GenAI</text><rect x="214" y="176" width="69" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/><text x="248.5" y="196" text-anchor="middle" class="mono" font-size="13" fill="#C9C9DA">Vercel</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="578" height="238" rx="20" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect class="sweep" x="1" y="1" width="578" height="238" rx="20" fill="none" stroke="url(#edge)" stroke-width="2"/>
+</svg>
