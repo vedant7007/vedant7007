@@ -45,11 +45,11 @@
 ### Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=vedant7007&hide_border=true&border_radius=20&background=2638D9&ring=FFD43B&fire=FFD43B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFD43B&sideLabels=DDE2FF&dates=C9D0FF&stroke=4A5BE6" width="100%" alt="Contribution streak" />
+  <img src="https://streak-stats.demolab.com?user=vedant7007&hide_border=true&border_radius=20&background=E0F4FF&ring=0EA5E9&fire=F472B6&currStreakNum=101A33&sideNums=101A33&currStreakLabel=0369A1&sideLabels=0369A1&dates=4A5068&stroke=7DD3FC" width="100%" alt="Contribution streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vedant7007&bg_color=2638D9&color=FFFFFF&title_color=FFFFFF&line=FFD43B&point=FFFFFF&area=true&area_color=FFD43B&hide_border=true&radius=20&custom_title=Contributions%20in%20the%20last%2030%20days" width="100%" alt="Contribution graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vedant7007&bg_color=E0F4FF&color=101A33&title_color=101A33&line=0EA5E9&point=F472B6&area=true&area_color=7DD3FC&hide_border=true&radius=20&custom_title=Contributions%20in%20the%20last%2030%20days" width="100%" alt="Contribution graph" />
 </p>
 
 <picture>
@@ -62,4 +62,4 @@
 
 I'm open to SDE internships, hackathon teams and open source collabs. Email me at [vedantidlgave16@gmail.com](mailto:vedantidlgave16@gmail.com).
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2638D9&height=100&section=footer" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,35:A78BFA,70:F472B6,100:FBBF24&height=100&section=footer" width="100%" alt="" />
